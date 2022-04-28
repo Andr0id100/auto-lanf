@@ -1,0 +1,12 @@
+relative-paths: false
+models:
+  - model.npz
+vocabs:
+  - ./vocab.en
+  - ./vocab.de
+beam-size: 12
+normalize: 0
+word-penalty: 0
+mini-batch: 32
+maxi-batch: 100
+maxi-batch-sort: src
